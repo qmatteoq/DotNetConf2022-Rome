@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketBot", "TicketBot\TicketBot.csproj", "{58919ABA-BE6A-49C3-BFA3-CF84C5192009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationsBot", "NotificationsBot\NotificationsBot.csproj", "{35255268-2C4B-493D-9FA6-3DAB4E86111F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58919ABA-BE6A-49C3-BFA3-CF84C5192009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58919ABA-BE6A-49C3-BFA3-CF84C5192009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58919ABA-BE6A-49C3-BFA3-CF84C5192009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58919ABA-BE6A-49C3-BFA3-CF84C5192009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35255268-2C4B-493D-9FA6-3DAB4E86111F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35255268-2C4B-493D-9FA6-3DAB4E86111F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35255268-2C4B-493D-9FA6-3DAB4E86111F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{35255268-2C4B-493D-9FA6-3DAB4E86111F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35255268-2C4B-493D-9FA6-3DAB4E86111F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35255268-2C4B-493D-9FA6-3DAB4E86111F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FF51D0B-4CF9-437A-AB6D-0F9129589B2B}
+	EndGlobalSection
+EndGlobal

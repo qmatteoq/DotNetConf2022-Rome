@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.9",
+  "version": "1.0.0",
+  "id": "0fb3041f-8677-4f33-b505-852e42cdce6a",
+  "packageName": "com.company.example",
+  "developer": {
+    "name": "TicketApp",
+    "websiteUrl": "https://localhost:44302",
+    "privacyUrl": "https://localhost:44302/privacy",
+    "termsOfUseUrl": "https://localhost:44302/termsofuse"
+  },
+  "icons": {
+    "color": "../color.png",
+    "outline": "../outline.png"
+  },
+  "name": {
+    "short": "TicketApp",
+    "full": "TicketApp"
+  },
+  "description": {
+    "short": "Short description for TicketApp.",
+    "full": "Full description of TicketApp."
+  },
+  "webApplicationInfo": {
+    "id": "516c36f4-ae98-4b27-8161-4f7d3d387731",
+    "resource": "api://localhost/516c36f4-ae98-4b27-8161-4f7d3d387731"
+  },
+  "accentColor": "#FFFFFF",
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "localhost"
+  ],
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://localhost:44302/config",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team",
+        "groupchat"
+      ]
+    }
+  ],
+  "staticTabs": [
+    {
+      "entityId": "index",
+      "name": "Personal Tab",
+      "contentUrl": "https://localhost:44302/tab",
+      "websiteUrl": "https://localhost:44302/tab",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "appName": "TicketApp",
+    "projectId": "d1635a87-162e-4770-859c-5966ed8bb906",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "azureResources": [],
+        "capabilities": [
+            "Tab"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-frontend-hosting",
+            "fx-resource-identity",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio"
+        ]
+    },
+    "version": "2.0.0",
+    "isFromSample": false,
+    "programmingLanguage": "csharp"
+}
